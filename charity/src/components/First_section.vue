@@ -13,7 +13,19 @@
             </div>
         </div>
         <div class="container-right clearfix">
-            
+            <div class="icon-container">
+                <p><i class="far fa-heart"></i> 2032</p>
+                <span>Volunteers worldwide</span>
+            </div>
+            <div class="icon-container">
+                <p><i class="fas fa-globe-americas"></i>132</p>
+                <span>Active projects</span>
+            </div>
+            <div class="icon-container">
+                <p>$ 3.8M</p>
+                <span>Donated</span>
+            </div>
+           
         </div>
     </section>
     
@@ -73,6 +85,17 @@ export default {
                 float: right;
                 background-image: url('../assets/img/home-content-bg-1.jpg');
                 background-size: cover;
+                    .icon-container{
+                        text-align: center;
+                        color: white;
+                        margin-top: 70px;
+                            p{
+                                font-size: 50px;
+                            }
+                            span{
+                                font-size: 24px;
+                            }
+                    }
 
             }
     }

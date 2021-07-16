@@ -1,6 +1,9 @@
 import Vue from 'vue'
+import './plugins/fontawesome'
 import App from './App.vue'
 import 'bootstrap/scss/bootstrap.scss'
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
 
 Vue.config.productionTip = false
 
