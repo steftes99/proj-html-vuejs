@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <Header/>
+      <Header :items= "items"/>
       <Main/>
       <Footer/>
   </div>
@@ -17,6 +17,16 @@ export default {
       Header,
       Main,
       Footer
+  },
+  data() {
+      return{
+        items: [
+      {message: 'Home'},
+      {message: 'Mission'},
+      {message: 'Causes'},
+      {message: 'Journal'}
+    ]
+      }
   }
 }
 </script>
