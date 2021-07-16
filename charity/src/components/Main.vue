@@ -1,12 +1,16 @@
 <template>
     <main>
-
+        <FirstSection/>
     </main>
 </template>
 
 <script>
+import FirstSection from '@/components/First_section.vue'
 export default {
-    name: 'Main'
+    name: 'Main',
+    components: {
+        FirstSection
+    }
 }
 </script>
 
@@ -14,6 +18,6 @@ export default {
     main{
         
         height: 500vh;
-        background-color: yellow;
+        
     }
 </style>

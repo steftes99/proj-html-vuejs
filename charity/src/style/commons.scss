@@ -10,3 +10,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
