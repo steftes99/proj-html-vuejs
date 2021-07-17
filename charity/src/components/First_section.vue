@@ -57,11 +57,7 @@ export default {
                                 letter-spacing: 2px;
                                 margin: 70px 0 30px 0;
                             }
-                            .text-separator{
-                                width: 200px;
-                                height: 3px;
-                                background-color: #fcd66c;
-                            }
+                           
                             p{
                                 color: #78787b;
                                 font-size: 18px;
@@ -69,7 +65,7 @@ export default {
                                 font-weight: 300;
                             }
                             button{
-                                 padding: 10px 30px;
+                                padding: 10px 30px;
                                 border: none;
                                 background-color: #fcd66c;
                                 color: white;
