@@ -25,7 +25,8 @@ export default {
       {message: 'Mission'},
       {message: 'Causes'},
       {message: 'Journal'}
-    ]
+    ],
+        
       }
   }
 }
