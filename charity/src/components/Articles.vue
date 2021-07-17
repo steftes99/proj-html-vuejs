@@ -43,6 +43,10 @@
                 </div>
             </div>
         </div>
+        <div class="button-container">
+            <button>view all our articles</button>
+        </div>
+        
     </section>
 </template>
 
@@ -123,5 +127,26 @@ export default {
                             }
                     }
             }
+    }
+    .button-container{
+        width: 80%;
+        margin: auto;   
+        margin-top: 100px;
+            button{
+                width: 100%;
+                height: 60px;
+                background-color: #ed6864;
+                border: none;
+                color: white;
+                font-weight: 500;
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                    &:hover{
+                        background-color: #408292;
+                        transition: 0.5s;
+                    }
+            }
+        
     }
 </style>
