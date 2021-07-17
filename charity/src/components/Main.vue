@@ -2,17 +2,23 @@
     <main>
         <FirstSection/>
         <Jumbotron :listItems= "listItems" />
+        <Gallery/>
+        <Articles/>
     </main>
 </template>
 
 <script>
 import FirstSection from '@/components/First_section.vue'
 import Jumbotron from '@/components/Jumbotron.vue'
+import Gallery from '@/components/Gallery.vue'
+import Articles from '@/components/Articles.vue'
 export default {
     name: 'Main',
     components: {
         FirstSection,
-        Jumbotron
+        Jumbotron,
+        Gallery,
+        Articles
     },
     data(){
         return{
