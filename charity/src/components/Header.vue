@@ -70,11 +70,22 @@ export default {
                                 list-style: none;
                                 display: flex;
                                 align-items: center;
+                                    
+                                    
                                     li{
                                         display: inline;
                                         color: white;
                                         text-transform: uppercase;
                                         margin: 35px;
+                                            &:first-of-type{
+                                            color: #fcd66c;
+                                            }
+                                            &:hover{
+                                                color: #fcd66c;
+                                                transition: 0.3s;
+                                                cursor: pointer;
+                                            }
+                                           
                                     }
                             }
                             button{
@@ -84,7 +95,11 @@ export default {
                                 color: white;
                                 font-weight: 600;
                                 text-transform: uppercase;
-                                margin-bottom: 15px;
+                                margin-bottom: 15px;    
+                                    &:hover{
+                                        background-color: black;
+                                        transition: 0.3s;
+                                    }
                             }
                     }
                    
@@ -122,10 +137,21 @@ export default {
                      .white{
                         border: 2px solid #fff;
                         color: #fff;
+                            &:hover{
+                               border: 2px solid #fcd66c;
+                               color: #fcd66c; 
+                               transition: 0.3s;
+                            }
                     }
                     .yellow{
                         border: 2px solid #fcd66c;
                         color: #fcd66c;
+                            &:hover{
+                                border: 2px solid white;
+                                color: white;
+                                background-color: black;
+                                transition: 0.3s;
+                            }
                     }
             }
     }
