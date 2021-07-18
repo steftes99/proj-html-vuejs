@@ -78,6 +78,10 @@ export default {
                                 font-weight: 600;
                                 text-transform: uppercase;
                                 margin-top: 20px;
+                                    &:hover{
+                                        background-color: black;
+                                        transition: 0.3s;
+                                    }
                         }
                 }
         }

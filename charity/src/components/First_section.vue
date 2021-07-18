@@ -71,6 +71,10 @@ export default {
                                 color: white;
                                 font-weight: 600;
                                 text-transform: uppercase;
+                                    &:hover{
+                                        background-color: black;
+                                        transition: 0.3s;
+                                    }
                                 
                             }
                     }
