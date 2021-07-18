@@ -2,7 +2,7 @@
   <div id="app">
       <Header :items= "items"/>
       <Main/>
-      <Footer/>
+      <Footer :socialIcons= "socialIcons"/>
   </div>
 </template>
 
@@ -26,6 +26,12 @@ export default {
       {message: 'Causes'},
       {message: 'Journal'}
     ],
+      socialIcons: [
+        '<i class="fab fa-facebook-f"></i>',
+        '<i class="fab fa-instagram"></i>',
+        '<i class="fab fa-twitter"></i>',
+        '<i class="fab fa-youtube"></i>'
+      ]
         
       }
   }
