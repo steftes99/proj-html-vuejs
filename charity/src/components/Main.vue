@@ -4,6 +4,7 @@
         <Jumbotron :listItems= "listItems" />
         <Gallery/>
         <Articles/>
+        <SecondJumbotron/>
     </main>
 </template>
 
@@ -12,13 +13,15 @@ import FirstSection from '@/components/First_section.vue'
 import Jumbotron from '@/components/Jumbotron.vue'
 import Gallery from '@/components/Gallery.vue'
 import Articles from '@/components/Articles.vue'
+import SecondJumbotron from '@/components/Second_jumbotron.vue'
 export default {
     name: 'Main',
     components: {
         FirstSection,
         Jumbotron,
         Gallery,
-        Articles
+        Articles,
+        SecondJumbotron
     },
     data(){
         return{
@@ -48,7 +51,7 @@ export default {
 
 <style lang="scss" scoped>
     main{
-        height: 500vh;
+        
         
     }
 </style>
