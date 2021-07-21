@@ -7,6 +7,7 @@
         <p>Together we make all the difference</p>
         <div class="articles-container">
             <div class="card">
+                
                 <img src="../assets/img/photo-1444213007800-cff19e1677ac.jpg" alt="">
                 <h3>Understanding community complexities</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Prasent ac nibh vestibulum, laoreet ipsum.</p>

@@ -6,10 +6,38 @@
         </div>
         <p>We run projects in over 30 countries in 5 contintents</p>
         <div class="gallery">
-            <img src="../assets/img/avada-charity-fair-trade-featured.jpg" alt="">
-            <img src="../assets/img/avada-charity-shelter-featured.jpg" alt="">
-            <img src="../assets/img/avada-charity-farming-featured.jpg" alt="">
-            <img src="../assets/img/avada-charity-vaccines-featured.jpg" alt="">
+            <div class="img-container">
+                <img src="../assets/img/avada-charity-fair-trade-featured.jpg" alt="">
+                <div class="img-hover">
+                    <h3>fair trade</h3>
+                </div>
+            </div>
+
+            <div class="img-container">
+                <img src="../assets/img/avada-charity-shelter-featured.jpg" alt="">
+                <div class="img-hover">
+                    <h3>shelter</h3>
+                </div>
+            </div>
+
+            <div class="img-container">
+                <img src="../assets/img/avada-charity-farming-featured.jpg" alt="">
+                <div class="img-hover">
+                    <h3>farming</h3>
+                </div>
+            </div>
+
+            <div class="img-container">
+                <img src="../assets/img/avada-charity-vaccines-featured.jpg" alt="">
+                <div class="img-hover">
+                    <h3>vaccines</h3>
+                </div>
+            </div>
+            
+
+            
+            
+            
         </div>
 
         <button>view all our causes</button>
@@ -48,9 +76,17 @@ export default {
                 display: flex;
                 justify-content: center;
                 margin-top: 100px;
-                    img{
+                    .img-container{
                         width: 25%;
                         margin: 10px;
+                        position: relative;
+                            &:hover .img-hover, h3{
+                                display: block;
+                                transition: 1s;
+                            }
+                    }
+                    img{
+                        width: 100%;
                     }
             }
             button{

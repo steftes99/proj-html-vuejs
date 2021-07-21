@@ -20,3 +20,28 @@ body{
     height: 3px;
     background-color: #fcd66c;
 }
+.img-hover{
+    width: 100%;
+    background-color: #fcd66c;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+    
+        h3{
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 300;
+            margin-top: 30%;
+            display: none;
+        }
+        h4{
+            text-align: center;
+            color: white;
+            font-weight: 300;
+            margin-top: 30%;
+            display: none;
+        }
+    
+}
